@@ -7,8 +7,6 @@ const Tshirts = () => {
             <section className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-wrap -m-4">
-
-
                         <Link legacyBehavior href={'/products/wear-the-code'}>
                             <div className="lg:w-1/5 md:w-1/2 p-4 w-full cursor-pointer shadow-lg m-5">
                                 <a className="block relative rounded overflow-hidden">
