@@ -16,10 +16,8 @@ export default function Home() {
       </Head>
 
       <div>
-        <img src='/homeimg.jpg' alt='' />
+        <img className='max-h-screen w-screen' src='/homeimg.jpg' alt='' />
       </div>
-
-
 
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">

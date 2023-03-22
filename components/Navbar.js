@@ -19,7 +19,13 @@ const Navbar = () => {
     return (
         <div className="flex flex-col md:flex-row md:justify-start justify-center items-center py-2 shadow-md">
             <div className="logo mx-5">
-                <Link href={'/'}><Image src='/homeimg.jpg' alt='' height={5} width={50}></Image></Link>
+                <Link href={'/'}>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
+
+                    {/* <Image src='/homeimg.jpg' alt='' height={5} width={50}></Image> */}
+                </Link>
             </div>
             <div className="nev">
                 <ul className="flex space-x-6 font-bold md:text-md">
@@ -71,18 +77,13 @@ const Navbar = () => {
                             <div className="w-2/3 font-semibold">Tshirt - Wear the code</div>
                             <div className="flex items-center justify-center w-1/3"> <AiFillMinusCircle className="cursor-pointer text-pink-500" /><span className="mx-2 text-sm">1</span> <AiFillPlusCircle className="cursor-pointer text-pink-500" /></div>
                         </div>
-
                     </li>
-
-
                 </ol>
 
                 <div className="flex">
                     <button className="flex mr-2 text-white bg-pink-500 border-0 py-2 px-2 focus:outline-none hover:bg-pink-600 rounded text-sm"><BsFillBagCheckFill className="m-1" />CheckOut</button>
                     <button className="flex mr-2 text-white bg-pink-500 border-0 py-2 px-2 focus:outline-none hover:bg-pink-600 rounded text-sm">Clear Cart</button>
                 </div>
-
-
             </div>
 
         </div>

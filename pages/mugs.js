@@ -187,11 +187,6 @@ const Mugs = () => {
                                 </div>
                             </div>
                         </Link>
-
-
-
-
-
                     </div>
                 </div>
             </section>

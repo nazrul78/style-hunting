@@ -16,8 +16,6 @@ const Post = () => {
         } else {
             setService(false)
         }
-
-        console.log(service)
     }
 
     const onChangePin = (e) => {
