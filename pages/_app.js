@@ -60,8 +60,12 @@ export default function App({ Component, pageProps }) {
   }
 
   return <>
+
+
     {/* <Navbar cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} clearCart={clearCart} subTotal={subTotal} />
     <Component cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} clearCart={clearCart} subTotal={subTotal}{...pageProps} /> */}
+
+
     <Navbar />
     <Component {...pageProps} />
     <Footer />
