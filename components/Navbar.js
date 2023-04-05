@@ -19,7 +19,7 @@ const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
     }
     const ref = useRef()
     return (
-        <div className="flex flex-col md:flex-row md:justify-start justify-center items-center py-2 shadow-md">
+        <div className="flex flex-col md:flex-row md:justify-start justify-center items-center py-2 shadow-md sticky top-0">
             <div className="logo mx-5">
                 <Link href={'/'}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
