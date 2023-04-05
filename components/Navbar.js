@@ -19,7 +19,7 @@ const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
     }
     const ref = useRef()
     return (
-        <div className="flex flex-col md:flex-row md:justify-start justify-center items-center py-2 shadow-md sticky top-0">
+        <div className="flex flex-col md:flex-row md:justify-start justify-center items-center py-2 shadow-md sticky top-0 bg-white z-10">
             <div className="logo mx-5">
                 <Link href={'/'}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
@@ -42,7 +42,7 @@ const Navbar = ({ cart, addToCart, removeFromCart, clearCart, subTotal }) => {
                 <AiOutlineShoppingCart className=" text-xl md:text-3xl" />
             </div>
 
-            <div ref={ref} className="w-72 h-full sideCart absolute top-0 right-0 bg-pink-100 px-8 py-10 transform transition-transform translate-x-full">
+            <div ref={ref} className="w-72 h-[100vh] sideCart absolute top-0 right-0 bg-pink-100 px-8 py-10 transform transition-transform translate-x-full">
                 <h2 className="font-bold text-xl text-center">Shopping cart</h2>
                 <span onClick={toggleCart} className="absolute top-5 right-2 cursor-pointer text-2xl text-red-600"><AiFillCloseCircle /></span>
                 <ol className="list-decimal font-semibold">
