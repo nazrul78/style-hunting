@@ -1,7 +1,10 @@
 import React from "react"
 const Checkout = () => {
     return (
-        <div>This is Checkout page</div>
+        <div className="container m-auto">
+            <h1>Checkout</h1>
+
+        </div>
     )
 
 }
