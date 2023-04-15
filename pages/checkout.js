@@ -61,6 +61,22 @@ const Checkout = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="mx-auto flex my-4">
+                <div className="px-2 w-1/2">
+                    <div className="mb-4">
+                        <label htmlFor="state" className="leading-7 text-sm text-gray-600">State</label>
+                        <input type="text" id="state" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                    </div>
+                </div>
+
+                <div className="px-2 w-1/2">
+                    <div className="mb-4">
+                        <label htmlFor="pincode" className="leading-7 text-sm text-gray-600">PinCode</label>
+                        <input type="text" id="pincode" name="pincode" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                    </div>
+                </div>
+            </div>
         </div>
     )
 
